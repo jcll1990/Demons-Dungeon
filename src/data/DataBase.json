@@ -1,0 +1,194 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "email1@gmail.com",
+      "password": "1",
+      "money": 200,
+      "hp": 25,
+      "speed": 25,
+      "dmg": 8,
+      "armor": 1,
+      "boots": 4,
+      "sword": 3
+    },
+    {
+      "id": 2,
+      "email": "email2@gmail.com",
+      "password": "2",
+      "money": 200,
+      "hp": 10,
+      "speed": 10,
+      "dmg": 1,
+      "armor": 0,
+      "boots": 0,
+      "sword": 0
+    }
+  ],
+  "items": {
+    "armors": [
+      {
+        "id": 1,
+        "name": "Leather armor",
+        "stats": 25,
+        "price": 200,
+        "img": "/items/armors/a1.png",
+        "type": "armor"
+      },
+      {
+        "id": 2,
+        "name": "Light armor",
+        "stats": 50,
+        "price": 500,
+        "img": "items/armors/a2.png",
+        "type": "armor"
+      },
+      {
+        "id": 3,
+        "name": "Full armor",
+        "stats": 80,
+        "price": 1000,
+        "img": "items/armors/a3.png",
+        "type": "armor"
+      },
+      {
+        "id": 4,
+        "name": "Heavy armor",
+        "stats": 120,
+        "price": 5000,
+        "img": "items/armors/a4.png",
+        "type": "armor"
+      }
+    ],
+    "swords": [
+      {
+        "id": 1,
+        "name": "Short sword",
+        "stats": 2,
+        "price": 100,
+        "img": "items/swords/s1.png",
+        "type": "sword"
+      },
+      {
+        "id": 2,
+        "name": "Gladius",
+        "stats": 5,
+        "price": 200,
+        "img": "items/swords/s2.png",
+        "type": "sword"
+      },
+      {
+        "id": 3,
+        "name": "Two-handed sword",
+        "stats": 8,
+        "price": 500,
+        "img": "items/swords/s3.png",
+        "type": "sword"
+      },
+      {
+        "id": 4,
+        "name": "Greatsword",
+        "stats": 10,
+        "price": 1000,
+        "img": "items/swords/s4.png",
+        "type": "sword"
+      }
+    ],
+    "boots": [
+      {
+        "id": 1,
+        "name": "Light boots",
+        "stats": 12,
+        "price": 20,
+        "img": "items/boots/b1.png",
+        "type": "boots"
+      },
+      {
+        "id": 2,
+        "name": "Leather boots",
+        "stats": 15,
+        "price": 100,
+        "img": "items/boots/b2.png",
+        "type": "boots"
+      },
+      {
+        "id": 3,
+        "name": "Chainmail boots",
+        "stats": 20,
+        "price": 200,
+        "img": "items/boots/b3.png",
+        "type": "boots"
+      },
+      {
+        "id": 4,
+        "name": "Full metal boots",
+        "stats": 25,
+        "price": 500,
+        "img": "items/boots/b4.png",
+        "type": "boots"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": 1,
+      "e1": true,
+      "e2": false,
+      "e3": false,
+      "e4": false,
+      "e5": false,
+      "ehp": 5,
+      "ed": 1,
+      "es": 5,
+      "price": 100
+    },
+    {
+      "id": 2,
+      "e1": true,
+      "e2": true,
+      "e3": false,
+      "e4": false,
+      "e5": false,
+      "ehp": 15,
+      "ed": 3,
+      "es": 8,
+      "price": 300
+    },
+    {
+      "id": 3,
+      "e1": true,
+      "e2": true,
+      "e3": true,
+      "e4": false,
+      "e5": false,
+      "ehp": 20,
+      "ed": 5,
+      "es": 12,
+      "price": 500
+    },
+    {
+      "id": 4,
+      "e1": true,
+      "e2": true,
+      "e3": true,
+      "e4": true,
+      "e5": false,
+      "ehp": 25,
+      "ed": 8,
+      "es": 15,
+      "price": 1000
+    },
+    {
+      "id": 5,
+      "e1": true,
+      "e2": true,
+      "e3": true,
+      "e4": true,
+      "e5": true,
+      "ehp": 30,
+      "ed": 15,
+      "es": 20,
+      "price": 2000
+    }
+  ]
+}
